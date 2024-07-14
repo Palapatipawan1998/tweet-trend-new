@@ -16,7 +16,7 @@ pipeline {
                 echo 'hi'
             }
         }
-         stage('clone2') {
+         stage('cl0one2') {
             steps {
                 echo 'hi'
             }
