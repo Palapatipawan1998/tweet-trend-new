@@ -4,9 +4,12 @@ pipeline {
             label 'maven'
         }
     }
+environment {
+    PATH = "/usr/share/maven:$PATH"
+}
 
     stages {
-        stage('clone code') {
+        stage('build') {
             steps {
                 sh 'mvn clean deploy'
             }
