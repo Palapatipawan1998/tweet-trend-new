@@ -14,7 +14,7 @@ pipeline {
         }
 =======
 >>>>>>> 29da8fe8fab0c33553c3ca6b78b171f025cc2aa4
-         stage('clone') {
+         stage('clofne') {
             steps {
                 echo 'hi'
             }
