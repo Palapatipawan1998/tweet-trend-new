@@ -16,5 +16,10 @@ pipeline {
                 echo 'hi'
             }
         }
+         stage('clone2') {
+            steps {
+                echo 'hi'
+            }
+        }
     }
 }
