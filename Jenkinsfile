@@ -11,7 +11,7 @@ pipeline {
                 sh 'mvn clean deploy'
             }
         }
-         stage('clofne') {
+         stage('cloooofne') {
             steps {
                 echo 'hi'
             }
