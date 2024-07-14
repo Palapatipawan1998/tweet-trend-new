@@ -5,7 +5,7 @@ pipeline {
         }
     }
 environment {
-    PATH = "/usr/share/maven:$PATH"
+    PATH = "/usr/lib/jvm/java-21-openjdk-amd64:$PATH"
 }
 
     stages {
